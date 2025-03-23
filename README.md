@@ -50,6 +50,12 @@ Core features include:
 
 This is a dense, complex build. I highly recommend having your PCB fab house do the surface-mount placement on at least one side of each board. I get the sides with all the passives done by JLCPCB, so I only have to do a handful of ICs.
 
+You should use high-quality thin film resistors, ideally 0.1% & very low PPM, for anything that touches the v/oct calibration, for example:
+
+- the 49.9k resistors on the i/o board that sum together the v/oct / tune / octave switches / etc
+- the 10k and 20k resistors on the "power" sheet of the main board, which help set the reference voltages (+1V , -1V, +1.25V)
+- any resistor that's anywhere near pins 5, 6, 12, 13, and 15 of the SSI2131s on the oscillator board
+
 As with all my designs, this design uses 2mm pitch male/female headers -- get them from Tayda Electronics, e.g: https://www.taydaelectronics.com/connectors-sockets/pin-headers/5-pin-2-00-mm-single-row-female-pin-header.html
 
 Because the headers are lower-profile, you'll want 1/4" standoffs. I get mine from McMaster-Carr.
