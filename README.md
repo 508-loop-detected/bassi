@@ -1,3 +1,7 @@
+#bassi
+
+<img src="bassi.jpeg" width=400>
+
 The Bassi is a full 2-oscillator synth voice in 14HP, based around the Sound Semiconductor synth IC set, including the SSI2131 VCO chip, the SSI2140 VCF chip, and the SSI2164 VCA chip.
 
 Core features include:
